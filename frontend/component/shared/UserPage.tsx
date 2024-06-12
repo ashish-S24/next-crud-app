@@ -144,7 +144,7 @@ const UserPage = () => {
             <ListItemText
               primary={
                 <>
-                  <Typography variant="h6" style ={{color:'black'}}>{user.name}</Typography>
+                  <Typography variant="h6" color='textPrimary'>{user.name}</Typography>
                   <Typography variant="body2" color="textSecondary">{user.email}</Typography>
                   <Typography variant="body2" color="textSecondary">{user.number}</Typography>
                 </>
